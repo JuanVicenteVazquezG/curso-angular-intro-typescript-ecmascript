@@ -2,13 +2,10 @@
     ===== Código de TypeScript =====
 */
 
-let nombre: string = 'Strider';
+let nombre: string = "Strider";
 let hp: number | string = 95;
-let estaVivo: boolean = true;
+let isAlive: boolean = true;
+hp =   'FULL'
+nombre = "Juan Vicente";
 
-hp = 'FULL';
-
-
-console.log( nombre, hp );
-
-
+console.log(nombre, hp);
