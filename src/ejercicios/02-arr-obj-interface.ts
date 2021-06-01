@@ -2,22 +2,26 @@
     ===== Código de TypeScript =====
 */
 
-let habilidades: Array <string | number  | boolean>  =['Bash','Counter','Healing'];
-habilidades.push(true);
 
-interface Personaje {
-    nombre: string;
+
+let habilities: Array <string>   = ['Bash','Counter','healing'];
+
+habilities.push('pepe');
+
+interface Persona {
+    name: string;
     hp: number;
-    habilidades: string[];
-    puebloNatal?:string;
+    habilities: string[];
+    puebloNatal?: string;
 }
 
-const personaje: Personaje = {
-    nombre: 'String',
-    hp:  100,
-    habilidades : ['Bash', 'Counter', 'Healing'],
+const personaje:Persona = {
+    name: 'Strider',
+    hp: 100,
+    habilities: [],
 }
 
-personaje.puebloNatal = 'Pueblo Paleta';
+personaje.puebloNatal = 'Pueblo Paleta'
 
-console.table(personaje);
+console.table(personaje) ;
+
